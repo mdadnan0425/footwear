@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header2 .sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #e5e5e5;
+    overflow: hidden;
+
+  }
+  
+  .header2 .sec1 .upperline {
+    display: flex;
+    justify-content: center;
+    transform: rotate(30deg);
+    margin-left: 160px;
+  }
+  
+  .header2 .sec1 .upperline div {
+    width: 20px;
+    height: 400px;
+    background-color: #4d3f4c;
+    margin-right: 16px;
+    transform: translateY(-80px);
+  }
+
+  .header2 .sec1 .circle {
+    width: 500px;
+    height: 500px;
+    background: transparent;
+    position: absolute;
+    left: 500px;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  
+  .header2 .sec1 .card2 {
+    background-color: #4d3f4c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    border-radius: 16px 0 0 16px;
+    padding: 15px 30px;
+    box-shadow: 0 10px 10px 0 gray;
+  }
+  
+  .header2 .sec1 .card2 h2 {
+    color: #fff;
+    font-size: 35px;
+    padding: 0 60px;
+    padding-left: 30px;
+  }
+  
+  .header2 .sec1 .card2 .size {
+    display: flex;
+  }
+  
+  .header2 .sec1 .card2 .size h3 {
+    color: #fff;
+  }
+  
+  .header2 .sec1 .card2 .size .number {
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .header2 .sec1 .card2 .size .number div {
+    color: #4d3f4c;
+    border: 1px solid #4d3f4c;
+    background-color: #fff;
+    margin: 5px;
+    padding: 0 5px;
+    text-align: center;
+  }
+  
+  .header2 .sec1 .card2 .add {
+    font-size: 22px;
+    border: 1px solid #4d3f4c;
+    border-radius: 8px;
+    color: #4d3f4c;
+    background-color: #fff;
+    padding: 0 10px;
+    margin: 10px;
+  }
+
+  .header2 .sec1 .imgcontainer{
+    display: flex;
+  }
+  
+  .header2 .sec1 .imgcontainer .r1 {
+    position: absolute;
+    top: 60px;
+    right: 1200px;
+    height: 220px; 
+  }
+  
+  .header2 .sec1 .imgcontainer .w1 {
+    width: 470px;
+    position: absolute;
+    top: 100px;
+    right: 510px;
+  }
+  
+  .header2 .sec1 .imgcontainer .y1 {
+    position: absolute;
+    right: 112px;
+    top: 370px;
+    height: 130px;
+  }
+  
+  
+  .header2 .sec1 .detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+  }
+  
+  .header2 .sec1 .detail .buy button{
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 25px 35px;
+    border-radius: 40px;
+    border: 4PX solid #fff;
+    background-color: #937A92;
+    color: #fff;
+    box-shadow: 0px 5px gray;
+  }
+
+  .header2 .sec1 .detail .buy button:focus{
+    outline: none;
+  }
+  
+  .header2 .sec1 .detail .buy i{
+    font-size: 50px;
+    color: #937A92;
+    padding: 10px;
+  }
+  
+  .header2 .sec1 .detail .lower{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header2 .sec1 .detail .lower .left{
+    display: flex;
+  }
+  
+  .header2 .sec1 .detail .lower .left h1{
+    font-size: 150px;
+    color:  rgba(0, 0, 0, 0.61);
+  
+  }
+  
+  .header2 .sec1 .detail .lower .left .wbr{
+    padding-top: 50px;
+  }
+  
+  .header2 .sec1 .detail .lower .left .wbr h2{
+    color:  rgba(0, 0, 0, 0.61);
+    font-size: 32px;
+  }
+  
+  .header2 .sec1 .detail .lower .left .wbr .white {
+    font-size: 20px;
+    display: flex;
+    margin: 5px 0;
+  }
+  
+  .header2 .sec1 .detail .lower .left .wbr .white .w{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 5px;
+  }
+  
+  .header2 .sec1 .detail .lower .left .wbr .white .b{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-right: 5px;
+  }
+  
+  .header2 .sec1 .detail .lower .left .wbr .white .r{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 5px;
+  }
+  
+  .header2 .sec1 .detail .lower .right h1{
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 40px;
+    padding-top: 50px;
+  }
+  
+  .header2 .sec1 .detail .lower .right p{
+    font-size: 20px;
+  }
+  

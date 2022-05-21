@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.footermain{
+    /* padding: 30px 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../../../assets/shop.png);
+    background-size: cover;
+    position: relative;
+    filter: brightness(80%);
+}
+
+.footermain img{
+    height: 517px;
+    width: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footermain h1{
+    font-size: 65px;
+    padding: 10px;
+    transform: translate(-600px);
+    font-family: 'Teko', sans-serif;
+        
+}
+
+.footermain .container{
+    display: flex;
+    justify-items: flex-end;
+    transform: translate(300px);
+    margin-bottom: 70px;
+
+}
+
+.footermain .container .items{
+    margin: 30px;
+}
+
+.footermain .container .items h2{
+    font-size: 32px;
+    padding-bottom: 20px;
+    padding-right: 34px;
+    margin-right: 20px;
+    transform: translate(-20px);
+    color: #ffffff;
+}
+
+.footermain .container .items ol li{
+    list-style-type: disc;
+    padding: 5px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footermain .container .items ol li:hover{
+    color: #EAB327;
+}
+
+
+.footermain .line{
+    width: 100%;
+    height: 1px;
+    margin: 12px 0;
+    background-color: #ffffff;
+    transform: translate(0px);
+}
+
+.footermain h4{
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    color: #ffffff;
+    transform: translate(55px);
+}
+
+.footermain .over{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 80%);
+    position: absolute;
+}
+
