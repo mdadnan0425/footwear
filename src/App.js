@@ -14,9 +14,9 @@ function App() {
         <Route path="/cart" component={Cart} />
         <Route path="/about" component={About} />
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
     </div>
-    // </BrowserRouter>
+    //  </BrowserRouter>
   );
 }
 

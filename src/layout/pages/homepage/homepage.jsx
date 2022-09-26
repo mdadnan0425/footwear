@@ -12,6 +12,6 @@ export default class Homepage extends Component {
       <Women />
       <Men />
       </>  
-        )
+      )
   }
 }
