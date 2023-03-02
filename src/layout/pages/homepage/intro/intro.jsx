@@ -14,7 +14,7 @@ export default class Intro extends Component {
       color2:["#4d3f4c","#E9173B","#FFCC00"],
       tab : 0,
       adjust:["","100px","320px"],
-      adjust2:["","550px","112px"],
+      adjust2:["","550px","515px"],
       adjust3:["","380px",""],
       move:["","310px","60px",""],
       move2:["","112px","1200px",""],
