@@ -24,7 +24,22 @@ export default class Intro extends Component {
       turn2:["","130px","225px"]
     }
   }
-    
+    change(){
+      if (this.state.first<3) {
+        this.setState({first:this.state.first+1})
+      }
+      else{
+        this.setState({first:1})
+      }
+      if(this.state.tab<3) {
+      this.setState({tab:this.state.tab+1})
+
+      }
+      else{
+        this.setState({tab:1})
+      }
+
+    }
     changeleft(){
       if(this.state.first<3) {
         this.setState({first:this.state.first+1})
