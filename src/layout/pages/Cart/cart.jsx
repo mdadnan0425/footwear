@@ -33,42 +33,7 @@ export default class Cart extends Component {
                         </div>
                     </div>
                     </div>
-                    <div className="products">
-                    <h2>Similir Products</h2>
-                        <div className="productSet">
-                            <img src={red} alt="red"/>
-                            <div className="description">
-                                <h4>Red Shoe</h4>
-                                <h3>Rs 3000/</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                 adipisicing elit. Fugiat ipsa sunt eos unde,
-                                  pariatur culpa a, quibusdam debitis eum
-                                   sequi repellendus consequatur, vel amet nam?</p>
-                            </div>
-                        </div>
-                        <div className="productSet">
-                            <img src={pink} alt="pink"/>
-                            <div className="description">
-                                <h4>Pink Shoe</h4>
-                                <h3>Rs 2000/</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                 adipisicing elit. Fugiat ipsa sunt eos unde,
-                                  pariatur culpa a, quibusdam debitis eum
-                                   sequi repellendus consequatur, vel amet nam?</p>
-                            </div>
-                        </div>
-                        <div className="productSet">
-                            <img src={yellow} alt="yellow"/>
-                            <div className="description">
-                                <h4>Yellow Shoe</h4>
-                                <h3>Rs 3800/</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                 adipisicing elit. Fugiat ipsa sunt eos unde,
-                                  pariatur culpa a, quibusdam debitis eum
-                                   sequi repellendus consequatur, vel amet nam?</p>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
                 <div className="right">
                     <h1>Specifiction</h1>
