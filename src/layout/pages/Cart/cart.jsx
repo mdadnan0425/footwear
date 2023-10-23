@@ -105,7 +105,7 @@ export default class Cart extends Component {
                                         <h2>Quantity</h2>
                                 </div>
                                 </div>
-                                <p>Available Offers</p>
+                                <p>Available Offer</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                      Quas, expedita? Sit, tenetur minus dolorum nostrum
                                       dolorem iusto beatae dolores similique.</p>
